@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    background: #0B2429;
+    display: flex;
+}
+.select {
+    flex: 1 0 auto;
+}
+
+.select ul  {
+    position: relative;
+    padding: 1vw 2vw;
+    text-rendering: geometricPrecision;
+    width: 33%;
+    left:0.5%;
+    top: 50%;
+    float: left;
+    background: #18343a;
+    color:#F3AC3C;
+    border: 1px solid azure;
+    text-align: justify;
+}
+.select ul a {
+    text-decoration: none;
+}
+.select ul a h3 {
+    text-align: center;
+    color: #F3AC3C;
+}
+.select ul:hover a h3 {
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
