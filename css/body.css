@@ -2,6 +2,8 @@
 body {
     background: #0B2429;
     display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
 }
 .select {
     flex: 1 0 auto;
@@ -30,4 +32,19 @@ body {
 .select ul:hover a h3 {
     transform: translateY(-10px);
     transition: 0.5s;
+}
+.text {
+    flex: 1 0 auto;
+}
+.text h1 {
+    font-size: 6vw;
+    text-align: center;
+    margin-top: 100px;
+    color:#F3AC3C;
+}
+.text p {
+    padding: 1vw 10vw;
+    text-align: justify;
+    background: #18343a;
+    color:#F3AC3C;
 }
